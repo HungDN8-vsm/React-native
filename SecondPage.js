@@ -62,7 +62,6 @@ export default function FirstPage() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar style="light" />
       <ImageBackground source={backgroundImage} style={styles.background}>
         <View style={styles.header}>
           <FontAwesome5 name="home" size={28} style={styles.homeIcon} />
